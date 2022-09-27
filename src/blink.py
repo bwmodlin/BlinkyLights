@@ -29,7 +29,7 @@ def nic_recv():
     if port2_status == "1":
         port2_status = "0"
     elif port2_status == "0":
-        port2_status == "1"
+        port2_status = "1"
     # Port 3 Input/Recv
     port3_status = str(pi2.read(22))
     if port3_status == "1":
